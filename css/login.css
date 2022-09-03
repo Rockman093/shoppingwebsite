@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+}
+.flex-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height:100vh;
+    background-color:rgb(251, 251, 251);
+}
+.login-form {
+    width: 400px;
+    height:500px;
+    padding:1em;
+    background-color:rgb(216, 213, 211);
+    box-shadow: 1px -1px 6px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 6px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 6px 3px rgba(0,0,0,0.75);
+     border-radius:10px;
+}
+.signin-img {
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+    padding-left: 35px;
+    padding-bottom:20px;
+    /* justify-content: center; */
+}
+.signin-img img {
+    width: 80px;
+    height: 80px;
+}
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items:center;
+    padding-left:0px;
+    margin:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color: rgb(27, 27, 27);
+    text-decoration:underline;
+    text-underline-offset: 7px;
+}
+label .email {
+    color:rgb(8, 8, 8);
+}
+.lg-gp #email ,
+.lg-gp #password {
+    width:90%;
+    border: 1px rgb(10, 10, 10) solid;
+    padding:6px;
+    letter-spacing:1px;
+}
+input::placeholder {
+    color:rgb(158, 155, 155);
+    font-size:12px;
+}
+.lg-ch-gp {
+    font-size:13px;
+    padding-top:5px;
+    align-items: center;
+}
+label {
+    letter-spacing: 1.5px;
+    padding:0 5px;
+    color: rgb(5, 5, 5);
+}
+#sumbit-lg-btn {
+    margin-top:20px;
+    margin-left:150px;
+    padding:5px 20px;
+}
+.lg-fg-gp {
+    margin-left:140px;
+    padding-top:5px;
+}
+.lg-fg-gp a {
+    text-underline-offset: 2px;
+    font-size:13px;
+    letter-spacing: 1px;
+    color:rgb(10, 10, 10);
+}
+/* #sumbit-signup-btn {
+    padding:5px 20px;
+    margin-top:20px;
+    margin-left:150px;
+    
+} */
+.sign-up {
+    margin-top:20px;
+    margin-left:150px;
+    padding:5px 15px;
+    padding-right:5px;
+    border:1px rgb(155, 154, 154) solid;
+    width:60px;
+    border-radius: 2px;
+    background-color: rgb(241, 238, 238);
+}
+.sign-up a {
+    color:black;
+    text-decoration:none;
+    font-size:15px;
+}

@@ -1,0 +1,115 @@
+footer {
+    background-color :#f5f5f5;
+    padding:60px 10px;
+    position:relative;
+    margin-top:20px;
+    border-top:1px rgb(236,236,236);
+}
+.footer-container {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:85%;
+    margin:10px auto;
+}
+.footer-logo-container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.footer-logo {
+    width:150px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2rem;
+    color:#131313;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:1px;
+}
+.footer-logo-container span {
+    color:#888888;
+    font-weight:400;
+    margin:10px;
+    font-size:0.8rem;
+}
+.footer-social {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-social a {
+    margin:0px 6px;
+    border-radius:50%;
+    color:#212121;
+    background-color:#ffffff;
+    border:1px rgba(0,0,0,0.1);
+    width:30px;
+    height: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-social a:hover {
+    background-color:orangered;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+.footer-menu {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-menu-box {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0 30px;
+}
+.footer-menu-box strong {
+    color:#292929;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin-bottom:5px;
+}
+.footer-menu-box ul li ,
+.footer-menu-box ul li a {
+    color:#888888;
+    font-size:0.9rem;
+    margin:5px 0px;
+}
+.footer-menu-box ul li a:hover {
+    color:#000000;
+    transition:all ease 0.3s;
+}
+.copyright {
+    padding:15px;
+    color:#5a5a5a;
+    background-color:#f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px rgba(0,0,0,0.06) solid;
+    font-size:0.9rem;
+}
+@media(max-width:1200px){
+   .footer-menu {
+       margin-top:50px;
+   }
+}
+@media(max-width:720px) {
+    .footer-container {
+        display:grid;
+        grid-template-columns:  1fr 1fr;
+    }
+}
+@media(max-width:500px) {
+    .footer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+}
